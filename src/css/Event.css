@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 401px) {
+body {
+    display: none;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+    .main-container-event {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-image: url('../Icons/running.jpeg');
+        background-size: cover; 
+    }
+    .title-main {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    .button-2 {
+        font-size: 30px;
+        background-color: #DD35AE;
+        border: 2px solid #DD35AE;
+        border-radius: 25px;
+        color: #D2C4C4;
+        height: 76px;
+        width: 306px;
+        font-weight: bold;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 290px;
+    }
+
+}

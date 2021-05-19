@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 401px) {
+body {
+    display: none;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+    .main-container {
+        background-image: url('../Icons/running.jpeg');
+        background-size: cover;
+
+    }
+}

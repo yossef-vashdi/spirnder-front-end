@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width: 401px) {
+body {
+    display: none;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+    .list {
+        display: grid;
+        row-gap: 28px;
+        overflow-y: scroll;
+        padding-right: 2%;
+        margin-left: -3vw;
+        padding-left: 0;
+
+    }
+}
